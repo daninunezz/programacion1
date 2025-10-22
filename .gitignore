@@ -43,3 +43,23 @@
 # macOS
 .DS_Store
 *.txt
+
+# 🧱 Ignorar ejecutables de Unix (sin extensión) comunes
+# Archivos generados al compilar en macOS/Linux
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+
+# Ignorar archivos ejecutables sin extensión (en carpetas típicas)
+bin/
+build/
+dist/
+out/
+
+# Opción adicional: ignora cualquier archivo sin extensión (⚠️ úsalo con cuidado)
+# ?*  = al menos un carácter, sin punto
+#* (descomenta si quieres ignorar TODOS los archivos sin extensión)
+# ?*
