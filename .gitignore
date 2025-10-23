@@ -63,3 +63,10 @@ out/
 # ?*  = al menos un carácter, sin punto
 #* (descomenta si quieres ignorar TODOS los archivos sin extensión)
 # ?*
+
+# Ignorar ejecutables sin extensión (macOS/Linux)
+# Ignora cualquier archivo en la raíz que no tenga punto
+# (por ejemplo, 'a.out', 'aaa', 'programa', etc.)
+[a-zA-Z0-9]*
+
+
