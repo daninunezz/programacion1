@@ -54,7 +54,7 @@
 *.dylib
 
 # Ignorar archivos ejecutables sin extensión (en carpetas típicas)
-bin/*
-build/*
-dist/*
-out/*
+bin/
+build/
+dist/
+out/
